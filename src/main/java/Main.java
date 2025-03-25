@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
-            // Создаем RestTemplate с конвертерами
+
             RestTemplate restTemplate = new RestTemplate();
             restTemplate.getMessageConverters().add(new MappingJackson2HttpMessageConverter());
 
